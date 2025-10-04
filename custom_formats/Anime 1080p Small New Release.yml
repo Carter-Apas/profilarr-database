@@ -1,0 +1,21 @@
+name: Anime 1080p Small New Release
+description: ''
+tags:
+- Anime
+conditions:
+- name: Anime Tier 8
+  negate: false
+  pattern: Anime Tier 8
+  required: true
+  type: release_title
+- name: HEVC
+  negate: false
+  pattern: HEVC
+  required: true
+  type: release_title
+- name: h265
+  negate: false
+  pattern: h265
+  required: true
+  type: release_title
+tests: []
