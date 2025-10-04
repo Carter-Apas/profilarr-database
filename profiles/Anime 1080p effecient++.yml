@@ -1,0 +1,146 @@
+name: Anime 1080p
+description: 'Prefers smaller 1080p anime downloads, No dual audio required'
+tags:
+- Anime
+- Sonarr
+- 1080p
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 1
+custom_formats: []
+custom_formats_radarr: []
+custom_formats_sonarr:
+- name: HEVC
+  score: 2000
+- name: Anime Tier 1
+  score: 1400
+- name: Anime Tier 2
+  score: 1300
+- name: Anime Tier 3
+  score: 1200
+- name: Anime Tier 4
+  score: 1100
+- name: Remux Tier 01 - Sonarr
+  score: 1050
+- name: Anime Tier 5
+  score: 1000
+- name: Remux Tier 02 - Sonarr
+  score: 1000
+- name: Anime Tier 6
+  score: 900
+- name: Anime Tier 7
+  score: 800
+- name: Anime Tier 8
+  score: 700
+- name: Anime WEB Tier 1
+  score: 600
+- name: Anime WEB Tier 2
+  score: 500
+- name: Anime WEB Tier 3
+  score: 400
+- name: WEB Tier 01
+  score: 350
+- name: Anime WEB Tier 4
+  score: 300
+- name: WEB Tier 02
+  score: 300
+- name: WEB Tier 03
+  score: 250
+- name: WEB Tier 05
+  score: 250
+- name: Anime WEB Tier 5
+  score: 200
+- name: WEB Tier 04
+  score: 200
+- name: Uncensored
+  score: 101
+- name: Anime WEB Tier 6
+  score: 100
+- name: CR
+  score: 7
+- name: DSNP
+  score: 6
+- name: NF
+  score: 5
+- name: AMZN
+  score: 4
+- name: v4
+  score: 4
+- name: VRV
+  score: 4
+- name: FUNI
+  score: 3
+- name: v3
+  score: 3
+- name: ABEMA
+  score: 2
+- name: ADN
+  score: 2
+- name: v2
+  score: 2
+- name: B-Global
+  score: 1
+- name: Bilibili
+  score: 1
+- name: HIDIVE
+  score: 1
+- name: v1
+  score: 1
+- name: v0
+  score: -51
+- name: Anime LQ
+  score: -10000
+- name: Anime Raws
+  score: -10000
+- name: AV1
+  score: -10000
+qualities:
+- id: -5
+  name: Bluray/REMUX 1080p
+  description: ''
+  qualities:
+  - id: 8
+    name: Remux-1080p
+  - id: 10
+    name: Bluray-1080p
+- id: -2
+  name: WEB 1080p
+  description: ''
+  qualities:
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 12
+    name: HDTV-1080p
+- id: 13
+  name: Bluray-720p
+- id: -3
+  name: WEB 720p
+  description: ''
+  qualities:
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+  - id: 16
+    name: HDTV-720p
+- id: 18
+  name: Bluray-480p
+- id: -4
+  name: WEB 480p
+  description: ''
+  qualities:
+  - id: 20
+    name: WEBRip-480p
+  - id: 19
+    name: WEBDL-480p
+- id: 22
+  name: DVD
+- id: 24
+  name: SDTV
+upgrade_until:
+  id: -5
+  name: Bluray/REMUX 1080p
+language: original
